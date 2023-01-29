@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- the peer feedback we received was regarding the readability of certain text sections and the structural design. we decided to update our colors and background colors to
+    provide a better readability for the receiver. the feedback of A1 has made us update our nav bar. it will now stick to the upperside of the screen and look way better in comparison 
+    to the previous asignment which (just for links in the top left). we also received feedback regarding our pre, but we decided to keep this the same.
+    the sources we used for the modal and filterable gallery are:
+    1. https://www.w3schools.com/howto/howto_css_modals.asp (html, css and js)
+    2. stackoverflow for general question in Javascript
+    3. https://www.magicpattern.design/tools/css-backgrounds
+    the outsourced code is also pointed out with comments to specify the copied code
+-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Photo Album</title>  
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/VisualEditor_-_Icon_-_Book.svg/2048px-VisualEditor_-_Icon_-_Book.svg.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+
+<body>
+<nav>
+    <a href="#home" class="nav">Home</a>
+    <a href="#album" class="nav">Photo Album</a>
+    <a href="#contact" class="nav">Form</a>
+    <a href="#contact" class="nav">Contact</a>
+</nav>
+
+
+<header>
+    <h1 id="home">Photo Album of famous authors</h1>
+</header>
+
+<section class="intro"> 
+    <h2>Introduction</h2>
+    <p class="intro_text">This weppage is constructed as part of the asignment A1, for the course Web Technology of the bachelor Computer Science at the <abbr title="Vrije Universiteit">VU</abbr>  in Amsterdam.</p>
+    <p class="intro_text">Everyone uses the Web, but how was it originally built, how has it evolved to what it is now, and how might it further develop in the future? The course will introduce the students to the key ideas, languages and protocols underlying the Web, including URI, HTTP, HTML, CSS and JavaScript. You will develop the skills you need to apply these techniques to create basic Web content and Web applications yourself, and to systematically validate and assess more advanced Web content made by others.</p>
+    <p class="intro_text">On this webpage, numerous famous authors will be showcased with their picture, appropriate tags, alts and a description</p>
+    <h2 class="author_list">The following authors are displayed on this page:</h2>
+    <ul id="list">
+    </ul>
+</section> 
+
+<section id="album">
+    <form action="https://wt.ops.labs.vu.nl/api23/be03d737" method="post" id="form">
+    <table id="table">
+     <caption><h2 class="table_text">Photo Album</h2></caption>
+     <tr>
+        <th class="line">Image</th>
+        <th class="table_lines">Author</th>
+        <th class="table_lines">Tags</th>
+        <th class="table_lines">Alt</th>
+        <th class="table_lines description">Description</th>
+     </tr>
+    </table>
+
+    <!-- // Source = https://www.w3schools.com/howto/howto_css_modals.asp -->
+    <button id="myBtn" class="button">Form</button>
+
+    <div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+             <h2>Form</h2>
+        </div>
+
+        <div class="modal-body">
+            <table class="form">
+            <tr><td colspan="5"><p class="table_text" id="center2">if you would like to add another author to the list, please fill in the following form and press submit:</p></td></tr>
+            <tr class="form">
+                <td><label for="image" class="table_text">Please enter image URL:</label>
+                <input type="url" name="image" id="image" required></td>
+                <td><label for="author" class="table_text">Enter the author's full name:</label>        
+                <input type="text" name="author" id="author" required></td>
+                <td><label for="tags" class="table_text">The tags:</label>        
+                <input type="text" name="tags" id="tags" required></td>
+                <td><label for="alt" class="table_text">The alt:</label>        
+                <input type="text" name="alt" id="alt" required></td>
+                <td class="description"><label for="description" class="table_text">Description:</label>        
+                <input type="text" name="description" id="description"></td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <input class="button" type="submit" name="submit" id="submit">
+                    <input class="button" type="reset" name="reset">
+                    
+        
+                </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    </div>
+    </form>
+</section>
+
+<br>
+<footer>
+    <section id="contact"><h2>Contact information</h2></section> 
+    <p class="authors"><strong>Authors:</strong></p>
+    <dl>
+    <dt>Daniel Buis</dt>
+    <dd><strong>Number:</strong> 2762716 <br><a href="mailto:d.j.buis@student.vu.nl" class="mail">d.j.buis@student.vu.nl</a></dd>
+    </dl>
+    <dl>
+    <dt>Patryk Major</dt>
+    <dd><strong>Number:</strong> 2766056<br><a href="mailto:p.m.major@student.vu.nl" class="mail">p.m.major@student.vu.nl</a></dd>
+    </dl>
+</footer>
+<br>
+<pre>
+        ‘Our doubts are traitors, And make us lose
+    the good we oft might win, By fearing to attempt.’
+                -William Shakespeare
+</pre>
+<br>
+</body>
+</html>

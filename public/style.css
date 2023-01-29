@@ -1,0 +1,471 @@
+*
+{
+    overflow-x: auto;
+    padding: 0;
+}
+
+header
+{
+    width: 100vw;
+}
+
+section
+{
+    width: 100vw;
+}
+
+h1
+{
+    color: #939667;
+    background: antiquewhite;
+    text-transform: capitalize;
+    margin: 50px auto 10px auto;
+    /* top right bottom left */
+    width: 50vw;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    border:solid 12px;
+    border-bottom-color:rgb(91, 91, 91);
+    border-left-color:rgb(84, 84, 84);
+    border-right-color:rgb(84, 84, 84);
+    border-top-color:rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+p.intro_text
+{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro
+{
+    text-align: center;
+}
+
+img 
+{
+    float: none;
+    border:solid;
+    border-width: 15px;
+    border-bottom-color:rgb(124, 70, 0);
+    border-left-color:rgb(146, 56, 0);
+    border-right-color:rgb(146, 56, 0);
+    border-top-color: rgb(176, 103, 0);
+    background-color:rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing:border-box;
+    display:inline-block;
+    text-align:center;
+    margin: 10px;
+}
+
+a, figcaption, p+table
+{
+    color: rgb(123, 123, 102);
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+
+
+.table_text, h3, th
+{
+    text-indent: 0%;
+    color: rgb(137, 137, 110);
+    font-family: sans-serif;
+    text-decoration: dashed;
+    font-weight: normal;
+    margin: 10px;
+}
+
+h2 
+{
+    color: #939667;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-style:unset;
+    border-spacing: 0ch;
+    border: solid 8px;
+    border-bottom-color:rgb(91, 91, 91);
+    border-left-color:rgb(84, 84, 84);
+    border-right-color:rgb(84, 84, 84);
+    border-top-color:rgb(39, 39, 39);
+    border-radius: 10px;
+    width: 50vw;
+    font-size: 24px;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+#center, #center2
+{
+    text-align: center;
+}
+
+a:hover
+{
+    color: #000000;
+}
+
+a:visited
+{
+    color: #95b2ae;   
+}
+
+input:focus
+{
+    color: #939667;
+}
+
+body
+{
+    width: 100vw;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/070/315/small/geometric-low-poly-graphic-repeat-pattern-background-free-vector.jpg);
+    background-repeat: repeat;
+}
+
+table
+{
+    overflow-x: auto;
+    background-color: antiquewhite;
+    width: 90vw;
+    margin: 10px auto 20px auto;
+    border: solid 8px;
+    border-bottom-color:rgb(186, 106, 0);
+    border-left-color:rgb(81, 31, 0);
+    border-right-color:rgb(97, 37, 0);
+    border-top-color: rgb(124, 70, 0);
+    caption-side: top;
+}
+
+tr, .table_lines
+{
+    border-left: solid 3px;
+    border-bottom: solid 3px;
+    border-color:rgb(251, 227, 161);
+}
+
+caption
+{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+tr
+{
+    width: auto;
+}
+
+.line
+{
+    border-bottom: solid 3px; 
+    border-bottom-color:rgb(251, 227, 161);
+}
+
+footer
+{
+    text-align:center;
+    color: rgb(0, 0, 0);
+}
+
+.button
+{
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border: solid rgb(48, 48, 48);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(135deg, #a8a8a8 40%, #4c4c4c);
+    color: white;
+}
+
+#myBtn
+{
+    width: 50%;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#album
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button#submit
+{
+    margin-left: 500px;
+}
+
+.button:visited
+{
+    box-shadow: 2px 2px 5px #000000;
+}
+
+ul
+{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    list-style-position:inside;
+    list-style-type:square;
+    list-style-image: none;
+}
+
+ol
+{
+    color: rgb(137, 137, 110);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.authors
+{
+    list-style: none;
+}
+
+pre
+{
+    font-family:  sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+form
+{
+    overflow-x: auto;
+    width: 100vw;
+}
+
+.form
+{
+    font-size: 14px;
+    vertical-align: bottom;
+    width: 50%;
+}
+
+/* outsourced code */
+.modal 
+{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content 
+{
+    background-color: #c26000;
+    opacity: 1;
+    background-image: url('https://img.freepik.com/free-vector/white-gold-hexagon-pattern-background_53876-115292.jpg?w=2000');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width:100%;
+    height:50%;
+}
+
+.close 
+{
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus 
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header 
+{
+    padding: 2px 16px;
+    color: white;
+} 
+
+.modal-body 
+{
+    padding: 2px 16px;
+}
+
+.modal-footer 
+{
+    padding: 2px 16px;
+}
+
+.modal-content 
+{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+  
+@keyframes animatetop 
+{
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+/* end outsourced code */
+
+nav 
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    background-color: rgb(43, 43, 43);
+    color: #fff; 
+    margin-top: 0px;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    right: 0;
+    width: 100%; 
+    z-index: 1; 
+    padding: 10px;
+}
+
+nav a 
+{
+    color: #fff;
+    text-decoration: none; 
+    margin-right: 10px; 
+    font-size: 18px; 
+}
+
+nav a:hover 
+{
+    color: #ffa500;
+}
+
+#list 
+{
+    list-style-type: none;
+}
+
+
+/* extra edit for the table */
+@media screen and (max-width: 1140px) 
+{
+    .description
+    {
+     min-width: 800px;
+    }
+    p
+    {
+     font-size: 20px;
+    }
+    table
+    {
+     width: 80vw;
+    }
+}
+
+/* ipad */
+@media screen and (max-width: 878px) 
+{
+   h1
+   {
+    width: 80vw;
+   }
+   h2
+   {
+    width: 70vw;
+   }
+   table
+   {
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   a
+   {
+    font-size: 20px;
+   }
+}
+
+
+@media screen and (max-width: 450px)
+{
+    h1
+    {
+        font-size: 20px;
+    }
+    h2
+    {
+        font-size: 20px;
+    }
+    p
+    {
+        font-size: 5vw;
+    }
+}
+  
+@page
+{
+    size: landscape;
+    margin: auto;
+}
+
+@page :left 
+{
+    size: landscape;
+    margin: auto;  
+}
+
+@page :right 
+{
+    size: landscape;
+    margin: auto; 
+}
+
+li
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 10vw;
+    padding: 3px;
+    text-align: center;
+}
+
+li:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bold
+{
+    font-weight: bold;
+}
